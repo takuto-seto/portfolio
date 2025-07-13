@@ -480,7 +480,7 @@ h1::after{
 
 .work-content-text {
     font-family: "Outfit","Noto sans jp";
-    font-size: .8rem;
+    font-size: calc(4.75 / 375 * 100vw);
     font-weight: 400;
     color: darkgray;
     text-align: left;
@@ -488,7 +488,7 @@ h1::after{
 
 @media (min-width:768px) {
     .work-content-text {
-        font-size: 1.25rem;
+        font-size: calc(10 / 768 * 100vw);
     }
   }
 
